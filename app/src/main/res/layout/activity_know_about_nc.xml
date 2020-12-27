@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_view"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="3dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg_animation"
+    tools:context=".Activity.FirstInterval">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+
+        <TextView
+            android:textAlignment="center"
+            android:textSize="60dp"
+            android:id="@+id/tv_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:text="About us"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ScrollView
+            android:scrollbars="none"
+            android:layout_below="@id/tv_about_us"
+            android:id="@+id/sv_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="344dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Net Connect was incorporated in the year 1997 in Bangalore. Since then, Net Connect has grown over the years, catering to over 100 businesses across the sub-continent.\n\nSpecializing in IT Professional Services and Managed Services, Net Connect has garnered best of the breed IT professional, process and partners to supports its clients to enhance their IT operations and make better use of their IT Infrastructure.\n\nOver the years, Net Connect is partnering with over 100 businesses globally providing IT Services that meet their immediate needs as well as future requirements aligned to their business goals.\n\nOur Connect with IT professionals and our in-house workforce is foundation of our approach. Net Connect works with these IT professionals to understand their key initiatives and career goals that provide valuable “on the ground” information. These pulses help us to scale our offerings and provide a platform to bring together best professional to deliver proven IT Services where it matters the most: in practice.\n\nNet Connect is Headquartered in India Silicon Valley(Bangalore) with Delivery Centers across India , Gurgaon, Mumbai, Kolkata and Pune , with all these delivery centers Net Connect has a strong presence across 60+ Locations in India.\n\nWebsite\nhttp://www.netconnectglobal.com\n\nHeadquarters\nBangalore, Karnataka\n\nYear Founded\n1997\n\nCompany Type\nPrivately Held\n\nSpecialties\nManaged Services, Professional Services, End User Services, Infrastructure Management, Software Developmen\n\n\n\nIt is classified as Non-govt company and is registered at Registrar of Companies, Bangalore. Its authorized share capital is Rs. 20,000,000 and its paid up capital is Rs. 18,000,000. It is inolved in Manufacture of television and radio transmitters and apparatus for line telephony and line telegraphy\n\nNet Connect Private Limited's Annual General Meeting (AGM) was last held on 28 September 2017 and as per records from Ministry of Corporate Affairs (MCA), its balance sheet was last filed on 31 March 2017.\n\nDirectors of Net Connect Private Limited are Sunil Bist and Anil Bisht.\n\nNet Connect Private Limited's Corporate Identification Number is (CIN) U32202KA1997PTC021881 and its registration number is 21881.Its Email address is accounts@netconnectglobal.com and its registered address is No 33/11, Hari Towers, Hosur Main Road, Roopena Agrahara, Bangalore 560068 Bangalore Bangalore KA 560068"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/sv_about_us"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/sv_about_us"
+                app:layout_constraintVertical_bias="0.41000003" />
+
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
